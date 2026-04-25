@@ -1,1 +1,1 @@
-﻿# A1 Financial Copilot: AI-Powered Bunq Banking Assistant
+﻿# AgentQ 

@@ -1,0 +1,14 @@
+{
+  "demo-user-1": [
+    {
+      "timestamp": "2026-04-25T02:37:52.617308",
+      "role": "user",
+      "message": "Every night at 23:59 move my extra money to savings but keep 100 EUR in my main account."
+    },
+    {
+      "timestamp": "2026-04-25T02:37:54.211722",
+      "role": "assistant",
+      "message": "```json\n{\n  \"intent\": \"midnight_sweeper\",\n  \"reply\": \"Got it! I'll set up a nightly sweep at 23:59 to move extra money to savings while keeping 100 EUR as a buffer in your main account.\",\n  \"createsTask\": true,\n  \"requiresConfirmation\": true,\n  \"requiresWebhook\": false,\n  \"sandboxOnly\": true,\n  \"task\": {\n    \"agentType\": \"midnight_sweeper\",\n    \"scheduleType\": \"daily\",\n    \"runAt\": \"23:59\",\n    \"trigger\": null,\n    \"config\": {\n      \"sourceAccount\": \"main\",\n      \"destinationAccount\": \"savings\",\n      \"minimumBalance\": 100,\n      \"currency\": \"EUR\",\n      \"sweepAll\": true\n    }\n  }\n}\n```"
+    }
+  ]
+}

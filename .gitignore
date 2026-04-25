@@ -1,0 +1,10 @@
+.env
+.env.*
+.venv
+venv
+__pycache__/
+*.pyc
+
+hackathon_toolkit/.env
+hackathon_toolkit/bunq_context.json
+hackathon_toolkit/__pycache__/
